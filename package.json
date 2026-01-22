@@ -1,0 +1,87 @@
+{
+  "name": "real-view",
+  "version": "1.0.0",
+  "description": "Occlusion-aware visibility sensor. Combines IntersectionObserver with Raycasting to track real impressions in React, Vue, Svelte, Angular, and Solid.",
+  "author": {
+    "name": "AntonVoronezh",
+    "email": "anton.voronezh.1990@gmail.com",
+    "url": "https://github.com/AntonVoronezh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonVoronezh/real-view.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AntonVoronezh/real-view/issues"
+  },
+  "homepage": "https://github.com/AntonVoronezh/real-view#readme",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts src/react.ts src/vue.ts src/svelte.ts src/solid.ts src/angular.ts --format cjs,esm --dts --clean",
+    "test": "vitest run",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "visibility",
+    "viewport",
+    "intersection",
+    "occlusion" ,
+    "tracking",
+    "analytics",
+    "impression",
+    "react",
+    "vue",
+    "svelte",
+    "angular",
+    "solid",
+    "dom",
+    "monitor",
+    "viewability"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonVoronezh/real-view.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AntonVoronezh/real-view/issues"
+  },
+  "homepage": "https://github.com/AntonVoronezh/real-view#readme",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "vue": ">=3.0.0",
+    "svelte": ">=3.0.0",
+    "solid-js": ">=1.0.0",
+    "@angular/core": ">=14.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": { "optional": true },
+    "vue": { "optional": true },
+    "svelte": { "optional": true },
+    "solid-js": { "optional": true },
+    "@angular/core": { "optional": true }
+  },
+  "devDependencies": {
+    "@angular/core": "^17.0.0",
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "vue": "^3.3.0",
+    "svelte": "^4.0.0",
+    "solid-js": "^1.8.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0",
+    "jsdom": "^23.0.0"
+  }
+}
