@@ -1,6 +1,6 @@
 {
   "name": "real-view",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Occlusion-aware visibility sensor. Combines IntersectionObserver with Raycasting to track real impressions in React, Vue, Svelte, Angular, and Solid.",
   "author": {
     "name": "AntonVoronezh",
@@ -25,8 +25,7 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "exports": {
-  },
+  "exports": {},
   "files": [
     "dist",
     "README.md",
@@ -42,7 +41,7 @@
     "visibility",
     "viewport",
     "intersection",
-    "occlusion" ,
+    "occlusion",
     "tracking",
     "analytics",
     "impression",
@@ -55,14 +54,6 @@
     "monitor",
     "viewability"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AntonVoronezh/real-view.git"
-  },
-  "bugs": {
-    "url": "https://github.com/AntonVoronezh/real-view/issues"
-  },
-  "homepage": "https://github.com/AntonVoronezh/real-view#readme",
   "license": "MIT",
   "peerDependencies": {
     "react": ">=16.8.0",
@@ -72,11 +63,21 @@
     "@angular/core": ">=14.0.0"
   },
   "peerDependenciesMeta": {
-    "react": { "optional": true },
-    "vue": { "optional": true },
-    "svelte": { "optional": true },
-    "solid-js": { "optional": true },
-    "@angular/core": { "optional": true }
+    "react": {
+      "optional": true
+    },
+    "vue": {
+      "optional": true
+    },
+    "svelte": {
+      "optional": true
+    },
+    "solid-js": {
+      "optional": true
+    },
+    "@angular/core": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@angular/core": "^17.0.0",
