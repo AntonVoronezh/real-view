@@ -15,6 +15,12 @@
     "url": "https://github.com/AntonVoronezh/real-view/issues"
   },
   "homepage": "https://github.com/AntonVoronezh/real-view#readme",
+  "funding": [
+    {
+      "type": "boosty",
+      "url": "https://boosty.to/antonvoronezh/donate"
+    }
+  ],
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

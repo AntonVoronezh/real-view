@@ -188,6 +188,9 @@ Real View uses a **"Lazy Raycasting"** architecture to keep performance high:
 3. **Style Audit:** It recursively checks `opacity`, `visibility`, and `display` up the DOM tree.
 4. **Tab Hygiene:** It listens to the Page Visibility API to pause tracking when the tab is backgrounded.
 
+## Support the project if you value your time ➡️➡️➡️
+> "We eliminated the lying `IntersectionObserver` reports, saved your analytics from counting impressions hidden behind sticky headers, and absorbed the manual DOM raycasting nightmare. You saved dozens of hours not writing complex visibility logic that would have killed your main thread anyway. **Your donation** is a fair trade for honest data and weekends free from debugging occlusion."
+
 ## License
 
 MIT
