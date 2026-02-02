@@ -3,6 +3,8 @@
 [![npm version](https://img.shields.io/npm/v/real-view.svg?style=flat-square)](https://www.npmjs.com/package/real-view)
 [![minzipped size](https://img.shields.io/bundlephobia/minzip/real-view?style=flat-square)](https://bundlephobia.com/package/real-view)
 [![license](https://img.shields.io/npm/l/real-view?style=flat-square)](LICENSE)
+[![Boosty](https://img.shields.io/badge/Support-Boosty-orange?style=flat-square&logo=boosty)](https://boosty.to/antonvoronezh/donate)
+[![Crypto](https://img.shields.io/badge/Donate-Crypto-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/AntonVoronezhh/5)
 
 > **Stop guessing. Start knowing.**
 > The only visibility tracker that knows if your user *actually* sees the element.
@@ -188,8 +190,23 @@ Real View uses a **"Lazy Raycasting"** architecture to keep performance high:
 3. **Style Audit:** It recursively checks `opacity`, `visibility`, and `display` up the DOM tree.
 4. **Tab Hygiene:** It listens to the Page Visibility API to pause tracking when the tab is backgrounded.
 
-## Support the project if you value your time ➡️➡️➡️
+## Support the project ❤️
 > "We eliminated the lying `IntersectionObserver` reports, saved your analytics from counting impressions hidden behind sticky headers, and absorbed the manual DOM raycasting nightmare. You saved dozens of hours not writing complex visibility logic that would have killed your main thread anyway. **Your donation** is a fair trade for honest data and weekends free from debugging occlusion."
+
+If this library saved you time, please consider supporting the development:
+
+1.  **Fiat (Cards/PayPal):** via **[Boosty](https://boosty.to/antonvoronezh/donate)** (one-time or monthly).
+2.  **Crypto (USDT/TON/BTC/ETH):** view wallet addresses on **[Telegram](https://t.me/AntonVoronezhh/5)**.
+
+<div style="display: flex; gap: 10px;">
+  <a href="https://boosty.to/antonvoronezh/donate">
+    <img src="https://img.shields.io/badge/Support_on-Boosty-orange?style=for-the-badge&logo=boosty" alt="Support on Boosty">
+  </a>
+  <a href="https://t.me/AntonVoronezhh/5">
+    <img src="https://img.shields.io/badge/Crypto_via-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Crypto via Telegram">
+  </a>
+</div>
+
 
 ## License
 
